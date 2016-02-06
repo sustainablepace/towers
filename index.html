@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html manifest="towers.mf">
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<link rel="stylesheet" href="cards.css"></link>
+		<style type="text/css">
+			body {
+				background-color: green;
+				width: 1000px;
+			}
+			ul {
+				list-style-position: inside;
+				margin-left: 0;
+				height: 120px;
+				padding-left: 0;
+			}
+
+			li {
+				display: inline-block;
+				*display: inline;
+				width: 71px;
+				margin-left: 20px;
+				vertical-align: top;
+				border: 1px dotted black;
+				border-radius: 10px;
+				height: 96px;
+			}
+			li.towers-ordered-stack div.towers-stacked-card {
+				height: 0;
+			}
+
+			div.towers-stacked-card {
+				height: 30px;
+			}
+		</style>
+		<script src="lib/jquery.min.js"></script>
+		<script src="lib/jquery-ui-1.8.18.custom/js/jquery-ui-1.8.18.custom.min.js"></script>
+		<script src="lib/jquery.ui.touch-punch.min.js"></script>
+		<script type="text/javascript" src="Card.js"></script>  
+		<script type="text/javascript" src="Stack.js"></script>  
+		<script type="text/javascript" src="Deck.js"></script>  
+		<script type="text/javascript" src="Command.js"></script>  
+		<script type="text/javascript" src="Towers.js"></script>  
+		<script type="text/javascript" src="jquery.sustainablepace.towers.js"></script>  
+		<script type="text/javascript">
+			$( function() {
+				$( "#towers" ).towers();
+			});
+		</script>
+	</head>
+	<body>
+		<div id="towers"></div>
+	</body>
+</html>

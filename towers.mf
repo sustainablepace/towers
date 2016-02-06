@@ -1,0 +1,17 @@
+CACHE MANIFEST
+# v0.1.2
+
+index.html
+towers.mf
+cards.css
+classic-playing-cards.png
+Card.js
+Command.js
+Deck.js
+Stack.js
+Towers.js
+jquery.sustainablepace.towers.js
+lib/jquery.min.js
+lib/jquery.ui.touch-punch.min.js
+lib/jquery-ui-1.8.18.custom/js/jquery-ui-1.8.18.custom.min.js
+
